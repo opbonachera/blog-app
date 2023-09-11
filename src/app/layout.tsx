@@ -20,7 +20,9 @@ export default function RootLayout({
       
       <body>
         <Navbar />
-        {children}
+          <div style={{height:'80vh'}}>
+            {children}
+          </div>
         <Footer />
       </body>
     </html>
